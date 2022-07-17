@@ -9,6 +9,7 @@
 import SwiftUI
 
 struct CreateAnAccountScreen: View {
+    @State private var showEmailAuthScreen = false
     @Environment(\.presentationMode) var presentationMode
     
     var body: some View {
@@ -34,6 +35,7 @@ struct CreateAnAccountScreen: View {
                 
                 Group {
                     Button {
+                        self.showEmailAuthScreen.toggle()
                         print("You was signed up with email")
                     } label: {
                         Text("Continue with email")
@@ -42,6 +44,9 @@ struct CreateAnAccountScreen: View {
                             .background(Color("Purple"))
                             .cornerRadius(15)
                             .padding(.top)
+                    }
+                    .fullScreenCover(isPresented: $showEmailAuthScreen) {
+                        EmailAuthScreen()
                     }
                     
                     Button {
@@ -144,4 +149,3 @@ struct CreateAnAccountScreen_Previews: PreviewProvider {
         CreateAnAccountScreen()
     }
 }
-

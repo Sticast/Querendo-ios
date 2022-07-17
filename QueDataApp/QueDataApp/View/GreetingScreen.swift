@@ -1,13 +1,13 @@
 //
-//  ContentView.swift
-//  QueDate
+//  GreetingScreen.swift
+//  QueDataApp
 //
-//  Created by Ilya Zelkin on 13.07.2022.
+//  Created by Ilya Zelkin on 17.07.2022.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct GreetingScreen: View {
     @State private var showFullCreateAnAccountScreen = false
     @State private var showFullSignInAccountScreen = false
     @State private var text = "Already have an acount? Sign In!"
@@ -93,8 +93,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct GreetingScreen_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        GreetingScreen()
     }
 }

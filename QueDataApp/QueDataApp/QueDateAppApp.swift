@@ -1,14 +1,14 @@
 //
-//  QueDateApp.swift
-//  QueDate
+//  QueDataAppApp.swift
+//  QueDataApp
 //
-//  Created by Ilya Zelkin on 13.07.2022.
+//  Created by Ilya Zelkin on 17.07.2022.
 //
 
 import SwiftUI
 
 @main
-struct QueDateApp: App {
+struct QueDateAppApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
