@@ -1,8 +1,8 @@
 //
 //  GreetingScreen.swift
-//  QueDataApp
+//  QueDateApp
 //
-//  Created by Ilya Zelkin on 17.07.2022.
+//  Created by Ilya Zelkin on 18.07.2022.
 //
 
 import SwiftUI

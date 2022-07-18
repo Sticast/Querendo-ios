@@ -1,18 +1,39 @@
 //
 //  EmailAuthScreen.swift
-//  QueDataApp
+//  QueDateApp
 //
-//  Created by Ilya Zelkin on 17.07.2022.
+//  Created by Ilya Zelkin on 18.07.2022.
 //
+
 
 import SwiftUI
+import Firebase
 
 struct EmailAuthScreen: View {
+    @State private var userIsLoggedin = false
+    @State private var text = "Already have an acount? Sign In!"
     @State var email = ""
     @State var password = ""
     @Environment(\.presentationMode) var presentationMode
     
+    var attributedStringText: AttributedString {
+        var attrS = AttributedString(text)
+        let attrT = attrS.range(of: "Sign In!")!
+        
+        attrS[attrT].foregroundColor = Color("Purple")
+        
+        return attrS
+    }
+    
     var body: some View {
+        if userIsLoggedin {
+            ProfileRegistartionScreen()
+        } else {
+            
+        }
+    }
+    
+    var content: some View {
         VStack {
             HStack {
                 Button {
@@ -51,6 +72,7 @@ struct EmailAuthScreen: View {
                 .cornerRadius(15)
             
             Button {
+                register()
                 print("Continue")
             } label: {
                 Text("Continue")
@@ -63,6 +85,50 @@ struct EmailAuthScreen: View {
 
             
             Spacer()
+            
+            Button {
+                login()
+                print("Signed In")
+            } label: {
+                Text(attributedStringText)
+                    .foregroundColor(.black)
+                    .font(.caption)
+                    .frame(width: 295, height: 24, alignment: .center)
+                    .padding(.top, 20)
+            }
+        }
+        .onAppear {
+            Auth.auth().addStateDidChangeListener { auth, user in
+                if user != nil {
+                    userIsLoggedin.toggle()
+                }
+            }
+        }
+    }
+    
+    
+    func logout() {
+        do {
+            try Auth.auth().signOut()
+            print("Success")
+        } catch (let error) {
+            print((error as NSError).code)
+        }
+    }
+    
+    func login() {
+        Auth.auth().signIn(withEmail: email, password: password) { result, error in
+            if error != nil {
+                print(error!.localizedDescription)
+            }
+        }
+    }
+    
+    func register() {
+        Auth.auth().createUser(withEmail: email, password: password) { result, error in
+            if error != nil {
+                print(error!.localizedDescription)
+            }
         }
     }
 }
