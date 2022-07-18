@@ -1,6 +1,6 @@
 # QueDateApp
 
-> An open source telegram bot with which you can find new acquaintances
+> The open source mobile app QueDate is an app with which you can find new acquaintances!
 
 
 
