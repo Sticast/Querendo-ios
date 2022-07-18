@@ -7,79 +7,89 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ABF7779A288460E400BE9966 /* QueDateAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF77799288460E400BE9966 /* QueDateAppApp.swift */; };
-		ABF7779C288460E400BE9966 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF7779B288460E400BE9966 /* ContentView.swift */; };
-		ABF7779E288460E600BE9966 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABF7779D288460E600BE9966 /* Assets.xcassets */; };
-		ABF777A1288460E600BE9966 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABF777A0288460E600BE9966 /* Preview Assets.xcassets */; };
-		ABF777A82884624400BE9966 /* CreateAnAccountScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF777A72884624400BE9966 /* CreateAnAccountScreen.swift */; };
-		ABF777AA288462A700BE9966 /* GreetingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF777A9288462A700BE9966 /* GreetingScreen.swift */; };
-		ABF777AD2884631900BE9966 /* EmailAuthScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF777AC2884631900BE9966 /* EmailAuthScreen.swift */; };
+		AB1EA6D22885572E00283921 /* QueDateAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1EA6D12885572E00283921 /* QueDateAppApp.swift */; };
+		AB1EA6D42885572E00283921 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1EA6D32885572E00283921 /* ContentView.swift */; };
+		AB1EA6D62885572F00283921 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB1EA6D52885572F00283921 /* Assets.xcassets */; };
+		AB1EA6D92885572F00283921 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB1EA6D82885572F00283921 /* Preview Assets.xcassets */; };
+		AB1EA6E02885576A00283921 /* GreetingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1EA6DF2885576A00283921 /* GreetingScreen.swift */; };
+		AB1EA6E42885579C00283921 /* EmailAuthScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1EA6E32885579C00283921 /* EmailAuthScreen.swift */; };
+		AB1EA6E728855AFB00283921 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = AB1EA6E628855AFB00283921 /* FirebaseAuth */; };
+		AB1EA6E928855B1D00283921 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AB1EA6E828855B1D00283921 /* GoogleService-Info.plist */; };
+		AB1EA6EC2885696A00283921 /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = AB1EA6EB2885696A00283921 /* ConfettiSwiftUI */; };
+		AB1EA6EF28856B6800283921 /* CreateAnAccountScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1EA6EE28856B6800283921 /* CreateAnAccountScreen.swift */; };
+		AB1EA6F1288588AB00283921 /* ProfileRegistartionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1EA6F0288588AA00283921 /* ProfileRegistartionScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		ABF77796288460E400BE9966 /* QueDate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QueDate.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		ABF77799288460E400BE9966 /* QueDateAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueDateAppApp.swift; sourceTree = "<group>"; };
-		ABF7779B288460E400BE9966 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		ABF7779D288460E600BE9966 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		ABF777A0288460E600BE9966 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		ABF777A72884624400BE9966 /* CreateAnAccountScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAnAccountScreen.swift; sourceTree = "<group>"; };
-		ABF777A9288462A700BE9966 /* GreetingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingScreen.swift; sourceTree = "<group>"; };
-		ABF777AC2884631900BE9966 /* EmailAuthScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailAuthScreen.swift; sourceTree = "<group>"; };
+		AB1EA6CE2885572E00283921 /* QueDateApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QueDateApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB1EA6D12885572E00283921 /* QueDateAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueDateAppApp.swift; sourceTree = "<group>"; };
+		AB1EA6D32885572E00283921 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AB1EA6D52885572F00283921 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB1EA6D82885572F00283921 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AB1EA6DF2885576A00283921 /* GreetingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingScreen.swift; sourceTree = "<group>"; };
+		AB1EA6E32885579C00283921 /* EmailAuthScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailAuthScreen.swift; sourceTree = "<group>"; };
+		AB1EA6E828855B1D00283921 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AB1EA6EE28856B6800283921 /* CreateAnAccountScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAnAccountScreen.swift; sourceTree = "<group>"; };
+		AB1EA6F0288588AA00283921 /* ProfileRegistartionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRegistartionScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		ABF77793288460E400BE9966 /* Frameworks */ = {
+		AB1EA6CB2885572E00283921 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB1EA6EC2885696A00283921 /* ConfettiSwiftUI in Frameworks */,
+				AB1EA6E728855AFB00283921 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		ABF7778D288460E400BE9966 = {
+		AB1EA6C52885572E00283921 = {
 			isa = PBXGroup;
 			children = (
-				ABF77798288460E400BE9966 /* QueDataApp */,
-				ABF77797288460E400BE9966 /* Products */,
+				AB1EA6D02885572E00283921 /* QueDateApp */,
+				AB1EA6CF2885572E00283921 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		ABF77797288460E400BE9966 /* Products */ = {
+		AB1EA6CF2885572E00283921 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ABF77796288460E400BE9966 /* QueDate.app */,
+				AB1EA6CE2885572E00283921 /* QueDateApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ABF77798288460E400BE9966 /* QueDataApp */ = {
+		AB1EA6D02885572E00283921 /* QueDateApp */ = {
 			isa = PBXGroup;
 			children = (
-				ABF77799288460E400BE9966 /* QueDateAppApp.swift */,
-				ABF777AB288462DA00BE9966 /* View */,
-				ABF7779D288460E600BE9966 /* Assets.xcassets */,
-				ABF7779F288460E600BE9966 /* Preview Content */,
+				AB1EA6E828855B1D00283921 /* GoogleService-Info.plist */,
+				AB1EA6D12885572E00283921 /* QueDateAppApp.swift */,
+				AB1EA6ED28856B1F00283921 /* View */,
+				AB1EA6D52885572F00283921 /* Assets.xcassets */,
+				AB1EA6D72885572F00283921 /* Preview Content */,
 			);
-			path = QueDataApp;
+			path = QueDateApp;
 			sourceTree = "<group>";
 		};
-		ABF7779F288460E600BE9966 /* Preview Content */ = {
+		AB1EA6D72885572F00283921 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				ABF777A0288460E600BE9966 /* Preview Assets.xcassets */,
+				AB1EA6D82885572F00283921 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		ABF777AB288462DA00BE9966 /* View */ = {
+		AB1EA6ED28856B1F00283921 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				ABF7779B288460E400BE9966 /* ContentView.swift */,
-				ABF777A9288462A700BE9966 /* GreetingScreen.swift */,
-				ABF777A72884624400BE9966 /* CreateAnAccountScreen.swift */,
-				ABF777AC2884631900BE9966 /* EmailAuthScreen.swift */,
+				AB1EA6D32885572E00283921 /* ContentView.swift */,
+				AB1EA6DF2885576A00283921 /* GreetingScreen.swift */,
+				AB1EA6EE28856B6800283921 /* CreateAnAccountScreen.swift */,
+				AB1EA6E32885579C00283921 /* EmailAuthScreen.swift */,
+				AB1EA6F0288588AA00283921 /* ProfileRegistartionScreen.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -87,39 +97,43 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ABF77795288460E400BE9966 /* QueDateApp */ = {
+		AB1EA6CD2885572E00283921 /* QueDateApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ABF777A4288460E600BE9966 /* Build configuration list for PBXNativeTarget "QueDateApp" */;
+			buildConfigurationList = AB1EA6DC2885572F00283921 /* Build configuration list for PBXNativeTarget "QueDateApp" */;
 			buildPhases = (
-				ABF77792288460E400BE9966 /* Sources */,
-				ABF77793288460E400BE9966 /* Frameworks */,
-				ABF77794288460E400BE9966 /* Resources */,
+				AB1EA6CA2885572E00283921 /* Sources */,
+				AB1EA6CB2885572E00283921 /* Frameworks */,
+				AB1EA6CC2885572E00283921 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = QueDateApp;
-			productName = QueDataApp;
-			productReference = ABF77796288460E400BE9966 /* QueDate.app */;
+			packageProductDependencies = (
+				AB1EA6E628855AFB00283921 /* FirebaseAuth */,
+				AB1EA6EB2885696A00283921 /* ConfettiSwiftUI */,
+			);
+			productName = QueDateApp;
+			productReference = AB1EA6CE2885572E00283921 /* QueDateApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		ABF7778E288460E400BE9966 /* Project object */ = {
+		AB1EA6C62885572E00283921 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
-					ABF77795288460E400BE9966 = {
+					AB1EA6CD2885572E00283921 = {
 						CreatedOnToolsVersion = 13.4;
 					};
 				};
 			};
-			buildConfigurationList = ABF77791288460E400BE9966 /* Build configuration list for PBXProject "QueDateApp" */;
+			buildConfigurationList = AB1EA6C92885572E00283921 /* Build configuration list for PBXProject "QueDateApp" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -127,45 +141,51 @@
 				en,
 				Base,
 			);
-			mainGroup = ABF7778D288460E400BE9966;
-			productRefGroup = ABF77797288460E400BE9966 /* Products */;
+			mainGroup = AB1EA6C52885572E00283921;
+			packageReferences = (
+				AB1EA6E528855AFB00283921 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				AB1EA6EA2885696A00283921 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */,
+			);
+			productRefGroup = AB1EA6CF2885572E00283921 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ABF77795288460E400BE9966 /* QueDateApp */,
+				AB1EA6CD2885572E00283921 /* QueDateApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		ABF77794288460E400BE9966 /* Resources */ = {
+		AB1EA6CC2885572E00283921 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABF777A1288460E600BE9966 /* Preview Assets.xcassets in Resources */,
-				ABF7779E288460E600BE9966 /* Assets.xcassets in Resources */,
+				AB1EA6D92885572F00283921 /* Preview Assets.xcassets in Resources */,
+				AB1EA6D62885572F00283921 /* Assets.xcassets in Resources */,
+				AB1EA6E928855B1D00283921 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		ABF77792288460E400BE9966 /* Sources */ = {
+		AB1EA6CA2885572E00283921 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABF777AA288462A700BE9966 /* GreetingScreen.swift in Sources */,
-				ABF7779C288460E400BE9966 /* ContentView.swift in Sources */,
-				ABF7779A288460E400BE9966 /* QueDateAppApp.swift in Sources */,
-				ABF777AD2884631900BE9966 /* EmailAuthScreen.swift in Sources */,
-				ABF777A82884624400BE9966 /* CreateAnAccountScreen.swift in Sources */,
+				AB1EA6F1288588AB00283921 /* ProfileRegistartionScreen.swift in Sources */,
+				AB1EA6D42885572E00283921 /* ContentView.swift in Sources */,
+				AB1EA6EF28856B6800283921 /* CreateAnAccountScreen.swift in Sources */,
+				AB1EA6D22885572E00283921 /* QueDateAppApp.swift in Sources */,
+				AB1EA6E42885579C00283921 /* EmailAuthScreen.swift in Sources */,
+				AB1EA6E02885576A00283921 /* GreetingScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		ABF777A2288460E600BE9966 /* Debug */ = {
+		AB1EA6DA2885572F00283921 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -225,7 +245,7 @@
 			};
 			name = Debug;
 		};
-		ABF777A3288460E600BE9966 /* Release */ = {
+		AB1EA6DB2885572F00283921 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -279,14 +299,14 @@
 			};
 			name = Release;
 		};
-		ABF777A5288460E600BE9966 /* Debug */ = {
+		AB1EA6DD2885572F00283921 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"QueDataApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"QueDateApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 2CZB669Q7L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -301,21 +321,21 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ilya.zelkin.QueDateApp;
-				PRODUCT_NAME = QueDate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		ABF777A6288460E600BE9966 /* Release */ = {
+		AB1EA6DE2885572F00283921 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"QueDataApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"QueDateApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 2CZB669Q7L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -330,7 +350,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ilya.zelkin.QueDateApp;
-				PRODUCT_NAME = QueDate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -340,25 +360,57 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ABF77791288460E400BE9966 /* Build configuration list for PBXProject "QueDateApp" */ = {
+		AB1EA6C92885572E00283921 /* Build configuration list for PBXProject "QueDateApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ABF777A2288460E600BE9966 /* Debug */,
-				ABF777A3288460E600BE9966 /* Release */,
+				AB1EA6DA2885572F00283921 /* Debug */,
+				AB1EA6DB2885572F00283921 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ABF777A4288460E600BE9966 /* Build configuration list for PBXNativeTarget "QueDateApp" */ = {
+		AB1EA6DC2885572F00283921 /* Build configuration list for PBXNativeTarget "QueDateApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ABF777A5288460E600BE9966 /* Debug */,
-				ABF777A6288460E600BE9966 /* Release */,
+				AB1EA6DD2885572F00283921 /* Debug */,
+				AB1EA6DE2885572F00283921 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AB1EA6E528855AFB00283921 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		AB1EA6EA2885696A00283921 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/simibac/ConfettiSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AB1EA6E628855AFB00283921 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB1EA6E528855AFB00283921 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		AB1EA6EB2885696A00283921 /* ConfettiSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB1EA6EA2885696A00283921 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */;
+			productName = ConfettiSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = ABF7778E288460E400BE9966 /* Project object */;
+	rootObject = AB1EA6C62885572E00283921 /* Project object */;
 }

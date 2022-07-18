@@ -1,15 +1,16 @@
 //
 //  CreateAnAccountScreen.swift
-//  QueDate
+//  QueDateApp
 //
-//  Created by Ilya Zelkin on 14.07.2022.
-//  Copyright © 2022 Ilya Zelkin. All rights reserved.
+//  Created by Ilya Zelkin on 18.07.2022.
 //
 
 import SwiftUI
+import ConfettiSwiftUI
 
 struct CreateAnAccountScreen: View {
     @State private var showEmailAuthScreen = false
+    @State private var counter: Int = 0
     @Environment(\.presentationMode) var presentationMode
     
     var body: some View {
@@ -32,7 +33,7 @@ struct CreateAnAccountScreen: View {
                 
                 Text("Sign up to continue")
                     .frame(width: 295, height: 27)
-                
+                Spacer()
                 Group {
                     Button {
                         self.showEmailAuthScreen.toggle()
@@ -49,6 +50,7 @@ struct CreateAnAccountScreen: View {
                         EmailAuthScreen()
                     }
                     
+                    /*
                     Button {
                         print("You signed up with phone number")
                     } label: {
@@ -62,6 +64,7 @@ struct CreateAnAccountScreen: View {
                             .foregroundColor(Color("Purple"))
                             .padding(.top)
                     }
+                     */
                 }
                 
                 Spacer()
@@ -80,16 +83,19 @@ struct CreateAnAccountScreen: View {
                 
                 HStack {
                     ControlButton(icon: "google") {
-                        //
+                        counter += 1
                     }
+                    .confettiCannon(counter: $counter, num: 50, openingAngle: Angle(degrees: 0), closingAngle: Angle(degrees: 360), radius: 200)
                     
                     ControlButton(icon: "apple") {
                         //
                     }
                     
-                    ControlButton(icon: "tg") {
-                        //
-                    }
+                    //ControlButton(icon: "tg") {
+                        
+                    //}
+                    
+                    LinkButtons(url: URL(string: "https://t.me/QueDateBot")!, image: "tg")
                 }
                 Spacer()
                 
@@ -102,7 +108,26 @@ struct CreateAnAccountScreen: View {
                         print("Privacy Policy")
                     }
                 }
+                .padding(.bottom)
             }
+        }
+    }
+}
+
+struct LinkButtons: View {
+    let url: URL
+    let image: String
+    
+    var body: some View {
+        HStack {
+            Link(destination: url) {
+                Image(image)
+                    .font(.system(size: 35))
+                    .foregroundColor(.white)
+                    .buttonStyle(.borderedProminent)
+            }
+            .frame(width: 64, height: 64)
+            .padding(.top)
         }
     }
 }
@@ -149,3 +174,4 @@ struct CreateAnAccountScreen_Previews: PreviewProvider {
         CreateAnAccountScreen()
     }
 }
+
