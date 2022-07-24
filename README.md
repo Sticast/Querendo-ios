@@ -1,5 +1,6 @@
 # QueDateApp
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 > The open source mobile app QueDate is an app with which you can find new acquaintances!
 
@@ -12,5 +13,7 @@
 ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
 ![IOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white)
 ![Cocoapods](https://img.shields.io/badge/cocoapods-FA2A02?style=for-the-badge&logo=cocoapods&logoColor=white)
+=======
+>>>>>>> parent of f54936b (🚧 Added documentation)
 =======
 >>>>>>> parent of f54936b (🚧 Added documentation)
